@@ -24,6 +24,8 @@ When planning security steps in continuous integrating, I often recommend adding
 - Unused exposed ports
 - Package whitelists and blacklists
 
-Based on the rules created and the final result of the policy evaluation, users can choose to fail the image scanning step of a CI build, and not promote the image to a production container registry. The integration of a flexible policy engine helps organizations stay on top of compliance requirements constantly, and can react faster if audited. Security teams responsible creating policy rules should be educating developers on why these rules are being created and what steps they can take to avoid breaking them.
+Based on the rules created and the final result of the policy evaluation, users can choose to fail the image scanningt step of a CI build, and not promote the image to a production container registry. The integration of a flexible policy engine helps organizations stay on top of compliance requirements constantly, and can react faster if audited. Security teams responsible creating policy rules should be educating developers on why these rules are being created and what steps they can take to avoid breaking them.
 
-## Conclusion
+## Wrapping up
+
+DevSecOps means integrating security practices into application development from start to finish. Not only does this require new tooling, automation, and integratio, but it also involes a significant culture change and investment from every developer, release engineer, and security engineer. Everyone is responsible for openness, feedback, and education. Once the culture is intact an in place, DevSecOps practices and processes can be implemented to achieve a more secure development process as a whole.
