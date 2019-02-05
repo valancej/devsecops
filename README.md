@@ -24,4 +24,6 @@ When planning security steps in continuous integrating, I often recommend adding
 - Unused exposed ports
 - Package whitelists and blacklists
 
-Based on the rules created and the final result of the policy evaluation, users can choose to fail the particular step of a CI build, and not promote the image to a production container registry. The integration of a flexible policy engine helps organizations stay on top of compliance requirements constantly, and can react faster if audited. Security teams responsible creating policy rules should be educating developers on why these rules are being created and what steps they can take to avoid breaking them.
+Based on the rules created and the final result of the policy evaluation, users can choose to fail the image scanning step of a CI build, and not promote the image to a production container registry. The integration of a flexible policy engine helps organizations stay on top of compliance requirements constantly, and can react faster if audited. Security teams responsible creating policy rules should be educating developers on why these rules are being created and what steps they can take to avoid breaking them.
+
+## Conclusion
