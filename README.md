@@ -15,7 +15,7 @@ There are quite a few benefits to including security practices to the software d
 
 As a container security company, we strongly believe containers help with a successful journey to DevSecOps. Containers are lightweight, faster than VMs, and allow developers to create predictable, scalable environments isolated from other applications or services. This leads to increased productivity across all teams, faster development, and less time fixing bugs and other environment issues. Containers are also immutable, meaning unchanged once created. To fix a vulnerable container, it is simply replaced by a patched, newer version.
 
-When planning security steps in continuous integrating, I often recommend adding a mandatory image analysis step to uncover vulnerable packages, secrets, credentials, or misconfigurations prior to the image being pushed to a production registry. As part of this image scanning step I also recommend enforcing policies on the contents of the container images that have just been analyzed. Anchore policies are made up of a set of user-defined rules such as:
+When planning security steps in a continuous integration pipeline, I often recommend adding a mandatory image analysis step to uncover vulnerable packages, secrets, credentials, or misconfigurations prior to the image being pushed to a production registry. As part of this image scanning step I also recommend enforcing policies on the contents of the container images that have just been analyzed. Anchore policies are made up of a set of user-defined rules such as:
 
 - Security vulnerabilities
 - Image manifest changes
