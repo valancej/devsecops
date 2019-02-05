@@ -4,11 +4,12 @@ At Anchore we consistently work with our users and customers to improve the secu
 
 ## What are the benefits of DevSecOps?
 
-There are quite a few benefits to including security practices to the software development and delivery lifecycle. I've defined some of the core ones below although there are many others:
+There are quite a few benefits to including security practices to the software development and delivery lifecycle. I've listed some of the core benefits below:
 
 - Costs are reduced by uncovering and fixing security issues further left in the development lifecycle versus in production environments.
 - Speed of product delivery is increased by incorporating automated security tests versus adding security testing at the end of lifecycle.
 - Increased transparency and team collaboration leads to faster detection and recovery of threats. 
 - Implementing immutable infrastructure improves overall security by reducing vulnerabilites, increasing automation, and encourages organizations to move to the cloud. 
 
-## 
+## How Anchore can help? 
+
