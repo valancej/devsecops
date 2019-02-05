@@ -11,6 +11,8 @@ There are quite a few benefits to including security practices to the software d
 - Increased transparency and team collaboration leads to faster detection and recovery of threats. 
 - Implementing immutable infrastructure improves overall security by reducing vulnerabilities, increasing automation, and encourages organizations to move to the cloud. 
 
+When thinking about what tooling and tests to put in place, organizations should look at their entire development lifecycle and environment. This can often include,source control, third-party libraries, container registries, CI/CD pipelines, and orchestration and release tools. 
+
 ## Anchore and DevSecOps
 
 As a container security company, we strongly believe containers help with a successful journey to DevSecOps. Containers are lightweight, faster than VMs, and allow developers to create predictable, scalable environments isolated from other applications or services. This leads to increased productivity across all teams, faster development, and less time fixing bugs and other environment issues. Containers are also immutable, meaning unchanged once created. To fix a vulnerable container, it is simply replaced by a patched, newer version.
